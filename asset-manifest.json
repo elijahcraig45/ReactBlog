@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/elijahcraig45/reactBlog.git/static/css/main.2de15514.css",
-    "main.js": "/elijahcraig45/reactBlog.git/static/js/main.18ecd727.js",
-    "static/js/787.9e0c1f39.chunk.js": "/elijahcraig45/reactBlog.git/static/js/787.9e0c1f39.chunk.js",
-    "static/media/mlbWeekOne.png": "/elijahcraig45/reactBlog.git/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
-    "index.html": "/elijahcraig45/reactBlog.git/index.html",
-    "main.2de15514.css.map": "/elijahcraig45/reactBlog.git/static/css/main.2de15514.css.map",
-    "main.18ecd727.js.map": "/elijahcraig45/reactBlog.git/static/js/main.18ecd727.js.map",
-    "787.9e0c1f39.chunk.js.map": "/elijahcraig45/reactBlog.git/static/js/787.9e0c1f39.chunk.js.map"
+    "main.css": "/elijahcraig45.github.io/reactBlog/static/css/main.2de15514.css",
+    "main.js": "/elijahcraig45.github.io/reactBlog/static/js/main.0eb7ffa0.js",
+    "static/js/787.9e0c1f39.chunk.js": "/elijahcraig45.github.io/reactBlog/static/js/787.9e0c1f39.chunk.js",
+    "static/media/mlbWeekOne.png": "/elijahcraig45.github.io/reactBlog/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
+    "index.html": "/elijahcraig45.github.io/reactBlog/index.html",
+    "main.2de15514.css.map": "/elijahcraig45.github.io/reactBlog/static/css/main.2de15514.css.map",
+    "main.0eb7ffa0.js.map": "/elijahcraig45.github.io/reactBlog/static/js/main.0eb7ffa0.js.map",
+    "787.9e0c1f39.chunk.js.map": "/elijahcraig45.github.io/reactBlog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2de15514.css",
-    "static/js/main.18ecd727.js"
+    "static/js/main.0eb7ffa0.js"
   ]
 }
