@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.2de15514.css",
+    "main.js": "/react-gh-pages/static/js/main.65cbfffb.js",
+    "static/js/787.9e0c1f39.chunk.js": "/react-gh-pages/static/js/787.9e0c1f39.chunk.js",
+    "static/media/mlbWeekOne.png": "/react-gh-pages/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.2de15514.css.map": "/react-gh-pages/static/css/main.2de15514.css.map",
+    "main.65cbfffb.js.map": "/react-gh-pages/static/js/main.65cbfffb.js.map",
+    "787.9e0c1f39.chunk.js.map": "/react-gh-pages/static/js/787.9e0c1f39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2de15514.css",
+    "static/js/main.65cbfffb.js"
+  ]
+}
