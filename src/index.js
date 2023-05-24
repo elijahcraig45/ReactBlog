@@ -10,15 +10,24 @@ import About from './components/about';
 import Navbar from './components/navbar'; // Import the Navbar component
 import ImpossibleList from './components/impossibleList';
 
+import GeneralistsMentality from './components/blogPosts/generalistsMentality';
+import Mlb2023week1 from './components/blogPosts/mlb2023week1';
+import BlogList from './components/blogList';
+import RestWisdom from './components/blogPosts/restWisdom';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Navbar /> {/* Add the Navbar component outside the Routes */}
+      <Navbar/>
       <Routes>
-        <Route path="/" exact element={<App />} />
+        <Route path="/" exact={true} element={<App />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/about" element={<About />} />
+        <Route path='/blog' element={<BlogList />} />
+        <Route path='/blogPosts/generalists_mentality' element={<GeneralistsMentality />} />
+        <Route path='/blogPosts/mlb2023week1' element={<Mlb2023week1 />} />
+        <Route path='/blogPosts/restWisdom' element={<RestWisdom /> } />
         <Route path="/impossible" element={<ImpossibleList />} /> 
       </Routes>
     </Router>

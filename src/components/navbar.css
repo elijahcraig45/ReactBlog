@@ -1,0 +1,23 @@
+body {
+    background-color: #749E6A;
+    width: 100%;
+}
+
+
+.navbarlist {
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+}
+
+li::before {
+    content: none;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: rgb(79, 196, 112);
+}

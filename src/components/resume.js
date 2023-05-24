@@ -3,7 +3,7 @@ import "./resume.css"
 
 const Resume = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#B9D7B2'}}>
       <h1>Henry Craig</h1>
       <h2>Education</h2>
       <ul>

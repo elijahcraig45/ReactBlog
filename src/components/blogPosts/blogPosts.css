@@ -1,0 +1,86 @@
+body {
+  background-color: #B9D7B2;
+  color: #3A4F35;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+h1, h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-left: 2rem;
+}
+
+p {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+
+ul, ol {
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+ol {
+padding-left: 5rem;
+}
+
+ul {
+  list-style-type: square;
+}
+.quote {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #3A4F35;
+  color: #B9D7B2;
+  text-align: right;
+}
+
+.quote p {
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-author {
+  font-style: italic;
+  text-align: right;
+  font-weight: bold;
+}
+
+.steps ol {
+  list-style-type: decimal;
+}
+
+.failure-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quote-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #3A4F35;
+  color: #B9D7B2;
+}
+
+.final-thoughts {
+  padding: 1rem;
+  background-color: #3A4F35;
+  color: #B9D7B2;
+}
+
+.quote-section .quote-author {
+  font-style: italic;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}

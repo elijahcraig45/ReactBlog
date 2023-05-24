@@ -1,14 +1,15 @@
 body {
-  background-color: #282c34;
+  background-color: #B9D7B2;
   font-family: Arial, sans-serif;
   line-height: 1.5;
   min-height: 100vh;
-  color: white;
+  color: #3A4F35;
 }
+
 
 #main {
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #B9D7B2;
   border-radius: 5px;
 }
 
@@ -18,8 +19,9 @@ header {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
+  margin-left: 20px;
 }
 
 h2 {
@@ -71,3 +73,5 @@ ul ul li:before {
   width: 1em;
   margin-left: -1em;
 }
+
+

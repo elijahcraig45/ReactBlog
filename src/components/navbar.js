@@ -1,21 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 const Navbar = () => {
   return (
-    <div style={{ backgroundColor: 'olive', display: 'flex', justifyContent: 'flex-end' }}>
-      <ul style={{ listStyle: 'none', display: 'flex' }}>
+    <div style={{ backgroundColor: '#749E6A', display: 'flex', justifyContent: 'flex-end' }}>
+      <ul style={{ listStyle: 'none', display: 'flex' }} className='navbarlist'>
         <li style={{ marginRight: '15px' }}>
-          <Link to="/" style={{ color: 'mauve' }}>Home</Link>
+          <NavLink exact to="/" activeclassname="active" className="nav-link">Home</NavLink>
         </li>
         <li style={{ marginRight: '15px' }}>
-          <Link to="/resume" style={{ color: 'mauve' }}>Resume</Link>
+          <NavLink to="/impossible" activeclassname="active" className="nav-link">Impossible List</NavLink>
         </li>
         <li style={{ marginRight: '15px' }}>
-          <Link to="/about" style={{ color: 'mauve' }}>About</Link>
-        </li>
-        <li style={{ marginRight: '15px' }}>
-          <Link to="/impossible" style={{ color: 'mauve' }}>Impossible List</Link>
+          <NavLink to="/about" activeclassname="active" className="nav-link">About</NavLink>
         </li>
       </ul>
     </div>
