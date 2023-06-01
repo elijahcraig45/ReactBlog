@@ -1,7 +1,7 @@
 {
   "name": "react-blog",
   "version": "0.1.0",
-  "homepage": "https://elijahcraig45.github.io/react-blog",
+  "homepage": "https://elijahcraig45.github.io/reactBlog/",
   "private": true,
   "dependencies": {
     "@prismicio/client": "^7.0.1",
