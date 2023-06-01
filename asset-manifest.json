@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/reactBlog/static/css/main.59c4eaf2.css",
-    "main.js": "/reactBlog/static/js/main.186a7773.js",
+    "main.js": "/reactBlog/static/js/main.85eeca86.js",
     "static/js/787.9e0c1f39.chunk.js": "/reactBlog/static/js/787.9e0c1f39.chunk.js",
     "static/media/mlbWeekOne.png": "/reactBlog/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
     "index.html": "/reactBlog/index.html",
     "main.59c4eaf2.css.map": "/reactBlog/static/css/main.59c4eaf2.css.map",
-    "main.186a7773.js.map": "/reactBlog/static/js/main.186a7773.js.map",
+    "main.85eeca86.js.map": "/reactBlog/static/js/main.85eeca86.js.map",
     "787.9e0c1f39.chunk.js.map": "/reactBlog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.59c4eaf2.css",
-    "static/js/main.186a7773.js"
+    "static/js/main.85eeca86.js"
   ]
 }
