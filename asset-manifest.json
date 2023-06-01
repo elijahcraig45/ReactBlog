@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2de15514.css",
-    "main.js": "/static/js/main.601401bb.js",
-    "static/js/787.9e0c1f39.chunk.js": "/static/js/787.9e0c1f39.chunk.js",
-    "static/media/mlbWeekOne.png": "/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
-    "index.html": "/index.html",
-    "main.2de15514.css.map": "/static/css/main.2de15514.css.map",
-    "main.601401bb.js.map": "/static/js/main.601401bb.js.map",
-    "787.9e0c1f39.chunk.js.map": "/static/js/787.9e0c1f39.chunk.js.map"
+    "main.css": "/react-blog/static/css/main.43f6bc23.css",
+    "main.js": "/react-blog/static/js/main.64ecabd5.js",
+    "static/js/787.9e0c1f39.chunk.js": "/react-blog/static/js/787.9e0c1f39.chunk.js",
+    "static/media/mlbWeekOne.png": "/react-blog/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
+    "index.html": "/react-blog/index.html",
+    "main.43f6bc23.css.map": "/react-blog/static/css/main.43f6bc23.css.map",
+    "main.64ecabd5.js.map": "/react-blog/static/js/main.64ecabd5.js.map",
+    "787.9e0c1f39.chunk.js.map": "/react-blog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2de15514.css",
-    "static/js/main.601401bb.js"
+    "static/css/main.43f6bc23.css",
+    "static/js/main.64ecabd5.js"
   ]
 }
