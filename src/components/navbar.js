@@ -7,7 +7,7 @@ const Navbar = () => {
     <div style={{ backgroundColor: '#749E6A', display: 'flex', justifyContent: 'flex-end', alignContent: 'center' }}>
       <ul style={{ listStyle: 'none', display: 'flex' }} className='navbarlist'>
         <li style={{ marginRight: '15px' }}>
-          <NavLink exact to="/" activeclassname="active" className="nav-link">Home</NavLink>
+          <NavLink exact to="/reactBlog" activeclassname="active" className="nav-link">Home</NavLink>
         </li>
         <li style={{ marginRight: '15px' }}>
           <NavLink to="/impossible" activeclassname="active" className="nav-link">Impossible List</NavLink>
