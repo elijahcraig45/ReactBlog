@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './slideshow.css';
 import { NavLink } from 'react-router-dom';
 
@@ -16,6 +16,27 @@ const Slideshow = ({ blogPosts }) => {
   };
 
   const currentBlogPost = blogPosts[currentSlide];
+
+  useEffect(() => {
+    const handleResize = () => {
+      const slideshow = document.querySelector('.slideshow');
+      const screenWidth = window.innerWidth;
+      slideshow.style.width = `${screenWidth}px`;
+
+      const images = document.querySelectorAll('.wallpaper');
+      images.forEach((image) => {
+        image.style.width = `${screenWidth}px`;
+      });
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className="slideshow">
