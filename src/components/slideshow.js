@@ -37,10 +37,10 @@ const Slideshow = ({ blogPosts }) => {
         </div>
       ))}
       <button className="prev-button" onClick={handlePrevSlide}>
-        Prev
+        {'<<<'}
       </button>
       <button className="next-button" onClick={handleNextSlide}>
-        Next
+        {'>>>'}
       </button>
     </div>
   );

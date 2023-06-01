@@ -44,10 +44,16 @@ const Resume = () => {
       <h2>Projects</h2>
       <ul>
         <li>Poultry Health Statistics Dashboard</li>
-        <li>Homerun Prediction Modeling</li>
-        <li>Movie Recommendation System using Machine Learning</li>
-        <li>Text Sentiment Analysis using Machine Learning</li>
-        <li>Home Value Prediction Modeling</li>
+        <li>Homerun Prediction Modeling
+          <li><a href='https://colab.research.google.com/drive/14iYU4Fp4ONkfVoLicju7blautLddmP4r?usp=sharing' target='_blanket'>https://colab.research.google.com/drive/14iYU4Fp4ONkfVoLicju7blautLddmP4r?usp=sharing</a></li>
+        </li>
+        <li>Movie Recommendation System using Machine Learning
+          <li><a href='https://colab.research.google.com/drive/1XTWtW2GYF07917fiHZO4OW4D95pF8e38?usp=sharing' target='_blanket'>https://colab.research.google.com/drive/1XTWtW2GYF07917fiHZO4OW4D95pF8e38?usp=sharing</a></li>
+        </li>
+
+        <li>Text Sentiment Analysis using Machine Learning
+          <li><a href='https://colab.research.google.com/drive/1z978VEklxm3FgQwg5nWnRIdSHZ7n9W6T?usp=sharing' target='_blanket'>https://colab.research.google.com/drive/1z978VEklxm3FgQwg5nWnRIdSHZ7n9W6T?usp=sharing</a></li>
+        </li>
       </ul>
       <h2>Activities</h2>
       <h3>Decatur City Church - High School Small Group Leader</h3>

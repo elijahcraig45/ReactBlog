@@ -56,6 +56,12 @@ li {
   text-align: left;
 }
 
+li li {
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 15px;
+}
+
 li:before {
   content: "\2022";
   display: inline-block;
