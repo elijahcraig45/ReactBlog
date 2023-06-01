@@ -14,7 +14,7 @@ const Resume = () => {
       <h2>Skills</h2>
       <ul>
         <li>Tools and Languages: Python, Javascript, React, Git, ReactJS, GraphQL, Java, C, SQL, Excel</li>
-        <li>Leadership: Problem solving, Attention to detail, Public Speaking, Critical thinking</li>
+        <li>Leadership: Problem Solving, Attention to Detail, Public Speaking, Critical Thinking</li>
         <li>Music: Alto Saxophone, Guitar, Bass, Piano, Banjo</li>
       </ul>
       <h2>Technical Experience</h2>
