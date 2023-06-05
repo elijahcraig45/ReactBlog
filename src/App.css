@@ -24,10 +24,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bio {
+  margin: 0px;
+  background-color: #3A4F35;
+  color: #B9D7B2;
+  padding: 10px;
 }
 
+p {
+  font-size: larger;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
