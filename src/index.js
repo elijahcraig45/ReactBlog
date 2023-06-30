@@ -14,6 +14,8 @@ import GeneralistsMentality from './components/blogPosts/generalistsMentality';
 import Mlb2023week1 from './components/blogPosts/mlb2023week1';
 import BlogList from './components/blogList';
 import RestWisdom from './components/blogPosts/restWisdom';
+import VideoDemo from './components/demo';
+import Weather from './components/weather';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +32,8 @@ root.render(
         <Route path='/blogPosts/mlb2023week1' element={<Mlb2023week1 />} />
         <Route path='/blogPosts/restWisdom' element={<RestWisdom /> } />
         <Route path="/impossible" element={<ImpossibleList />} /> 
+        <Route path="/videoDemo" element={<VideoDemo /> } />
+        <Route path="/Weather" element={<Weather /> } />
       </Routes>
     </Router>
   </React.StrictMode>

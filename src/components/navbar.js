@@ -10,6 +10,9 @@ const Navbar = () => {
           <NavLink exact to="/reactBlog" activeclassname="active" className="nav-link">Home</NavLink>
         </li>
         <li style={{ marginRight: '15px' }}>
+          <NavLink to="/weather" activeclassname="active" className="nav-link">Weather</NavLink>
+        </li>
+        <li style={{ marginRight: '15px' }}>
           <NavLink to="/impossible" activeclassname="active" className="nav-link">Impossible List</NavLink>
         </li>
         <li style={{ marginRight: '15px' }}>
