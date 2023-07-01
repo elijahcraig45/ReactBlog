@@ -239,7 +239,8 @@ const WeatherApp = () => {
         return currentDayForecasts.map((forecast) => (
           <div key={forecast.dt} className="carousel-slide">
             <div className="carousel-content">
-              <div className="carousel-day">{forecast.dt_txt}</div>
+              <div className="carousel-day">{forecast.dt_txt.substring(0, 10)}</div>
+              <div className="carousel-day">{forecast.dt_txt.substring(10)}</div>
               <div className="carousel-icon">
                 <img src={mapIdToIcon(forecast.weather[0].id)} alt="Weather Icon" />
               </div>
@@ -254,9 +255,11 @@ const WeatherApp = () => {
         });
     
         return nextDayForecasts.map((forecast) => (
+
           <div key={forecast.dt} className="carousel-slide">
             <div className="carousel-content">
-              <div className="carousel-day">{forecast.dt_txt}</div>
+            <div className="carousel-day">{forecast.dt_txt.substring(0, 10)}</div>
+            <div className="carousel-day">{forecast.dt_txt.substring(10)}</div>
               <div className="carousel-icon">
                 <img src={mapIdToIcon(forecast.weather[0].id)} alt="Weather Icon" />
               </div>
@@ -284,24 +287,6 @@ const WeatherApp = () => {
 
   return (
     <div className="container">
-      <h1>Weather App</h1>
-      <div className="form">
-        <label className="label" htmlFor="locationInput">
-          Enter Location:
-        </label>
-        <div className="input-container">
-          <input
-            className="input"
-            id="locationInput"
-            type="text"
-            value={location}
-            onChange={handleLocationChange}
-          />
-          <button className="button" onClick={handleSearch}>
-            Search
-          </button>
-        </div>
-      </div>
       {isLoading ? (
         <p>Loading...</p>
       ) : (
@@ -314,8 +299,6 @@ const WeatherApp = () => {
                 <thead>
                   <tr>
                     <th>Icon</th>
-                    <th>Longitude</th>
-                    <th>Latitude</th>
                     <th>Temperature</th>
                     <th>Humidity</th>
                     <th>Weather Description</th>
@@ -328,8 +311,6 @@ const WeatherApp = () => {
                 <tbody>
                   <tr>
                     <td><img src={mapIdToIcon(weatherData.weather[0].id)} /></td>
-                    <td>{coordinates.lng}</td>
-                    <td>{coordinates.lat}</td>
                     <td>{weatherData.main.temp}F</td>
                     <td>{weatherData.main.humidity}%</td>
                     <td>{weatherData.weather[0].description}</td>
