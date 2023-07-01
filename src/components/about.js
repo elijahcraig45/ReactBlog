@@ -1,9 +1,7 @@
 import './page.css'
 import { NavLink } from 'react-router-dom';
-
 import React from 'react';
-
-
+import pdfResume from './pdfs/resume_76.pdf';
 function About() {
   return (
     <div className="About">
@@ -21,7 +19,7 @@ Apart from his technical expertise, Henry has also been involved in different ac
 If you're looking for someone with a wide range of skills, Henry Craig is your go-to person. He is available for music lessons, tutoring, and any other projects that require his skills and experience.</p>
 <div id='aboutLinks'>
   <h2>Professional Resume: </h2>
-  <NavLink to="/resume" activeClassName="active" className="nav-link-page">Resume</NavLink>
+  <embed src={pdfResume} type="application/pdf" width="58%" height="1000px" />
 </div>
     </div>
   );

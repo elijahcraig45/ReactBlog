@@ -82,7 +82,7 @@ function ImpossibleList() {
         <h1>Impossible List</h1>
         <p>I've never really had a bucket list. I've done a few things that could go on a bucket list, but most of my long-term goals require building up to the larger goal. So to avoid delayed gratification in achieving these goals, I decided to make my Impossible list. I got this idea from collegeinfogeek.com (who got it from somebody else) and I figured it would serve as a good goal system to push me to do more. I'll do my best to keep it updated. For more info on how to do something like this yourself, and how it differs from a bucket list, try these sources:
         <br /><a href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/" target='_blank' rel='noreferrer'>collegeinfogeek.com</a> 
-        <br /><a href="https://impossiblehq.com/impossible-list/" target='_blank' rel='noreferrer' >Impossiblehq.com</a> </p>
+        <br /><a href="https://impossiblehq.com/impossible-list/" target='_blank' rel='noreferrer'>Impossiblehq.com</a> </p>
         <GoalList />
       </div>
     );

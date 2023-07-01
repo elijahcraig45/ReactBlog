@@ -15,7 +15,9 @@ const Slideshow = ({ blogPosts }) => {
     );
   };
 
-  const currentBlogPost = blogPosts[currentSlide];
+  const sortedBlogPosts = blogPosts.slice(0, 3).sort((a, b) => new Date(b.datePosted) - new Date(a.datePosted));
+
+  const currentBlogPost = sortedBlogPosts[currentSlide];
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,20 +42,20 @@ const Slideshow = ({ blogPosts }) => {
 
   return (
     <div className="slideshow">
-      {blogPosts.map((blogPost, index) => (
+      {sortedBlogPosts.map((blogPost, index) => (
         <div
           key={index}
           className={`slide ${
             index === currentSlide ? 'active' : 'inactive'
           }`}
         >
-          <NavLink to={`/blogPosts/${currentBlogPost.slug}`}>
+          <NavLink to={`/blogPosts/${blogPost.slug}`}>
             <img
               className="wallpaper"
-              src={currentBlogPost.wallpaperImage}
+              src={blogPost.wallpaperImage}
               alt="Blog Wallpaper"
             />
-            <h2 className="title">{currentBlogPost.title}</h2>
+            <h2 className="title">{blogPost.title}</h2>
           </NavLink>
         </div>
       ))}
