@@ -1,5 +1,4 @@
 import './page.css'
-import { NavLink } from 'react-router-dom';
 import React from 'react';
 import pdfResume from './pdfs/resume_76.pdf';
 function About() {
