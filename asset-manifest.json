@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/reactBlog/static/css/main.832ab9d7.css",
-    "main.js": "/reactBlog/static/js/main.7dd8f038.js",
+    "main.css": "/reactBlog/static/css/main.34581219.css",
+    "main.js": "/reactBlog/static/js/main.0fffbe56.js",
     "static/js/787.9e0c1f39.chunk.js": "/reactBlog/static/js/787.9e0c1f39.chunk.js",
+    "static/media/wisdomRest.png": "/reactBlog/static/media/wisdomRest.333e1cc2b731382d4585.png",
+    "static/media/resume_76.pdf": "/reactBlog/static/media/resume_76.897983a57ec1a78f8036.pdf",
     "static/media/mlbWeekOne.png": "/reactBlog/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
     "index.html": "/reactBlog/index.html",
-    "main.832ab9d7.css.map": "/reactBlog/static/css/main.832ab9d7.css.map",
-    "main.7dd8f038.js.map": "/reactBlog/static/js/main.7dd8f038.js.map",
+    "main.34581219.css.map": "/reactBlog/static/css/main.34581219.css.map",
+    "main.0fffbe56.js.map": "/reactBlog/static/js/main.0fffbe56.js.map",
     "787.9e0c1f39.chunk.js.map": "/reactBlog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.832ab9d7.css",
-    "static/js/main.7dd8f038.js"
+    "static/css/main.34581219.css",
+    "static/js/main.0fffbe56.js"
   ]
 }
