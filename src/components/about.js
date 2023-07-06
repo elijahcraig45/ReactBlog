@@ -1,6 +1,7 @@
-import './page.css'
+
 import React from 'react';
 import pdfResume from './pdfs/resume_76.pdf';
+import '../App.css';
 function About() {
   return (
     <div className="About">
@@ -16,10 +17,10 @@ Currently, Henry is available for music lessons, tutoring, and any other project
 Apart from his technical expertise, Henry has also been involved in different activities and leadership roles. As a High School Small Group Leader at Decatur City Church, he led group discussions among high school students. At Theta Xi Fraternity, he served as the Risk Management Chair and Sustainability Chair, where he educated members on safe practices and promoted sustainable practices, including recycle and reuse programs. As a Student Leadership Team/Vice President at Westminster Christian Fellowship, he organized events, building renovations, and retreats for a college community, and designed fliers and made promotional videos for various events.
 
 If you're looking for someone with a wide range of skills, Henry Craig is your go-to person. He is available for music lessons, tutoring, and any other projects that require his skills and experience.</p>
-<div id='aboutLinks'>
-  <h2>Professional Resume: </h2>
+<div id='aboutLinks' style={{display : 'flex' ,alignItems: 'center', justifyContent: 'center'}}>
   <embed src={pdfResume} type="application/pdf" width="58%" height="1000px" />
 </div>
+
     </div>
   );
 }

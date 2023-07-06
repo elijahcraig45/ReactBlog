@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { format, parseISO } from 'date-fns';
 
-import placeholder from './images/placeholder.jpeg';
+
+//import placeholder from './images/placeholder.jpeg';
 import wisdomRest from './images/wisdomRest.png';
 import mlbweek1wallpaper from './images/mlbWeekOne.png';
 import generalistMentality from './images/generalistsMentality.png';
 
-import './blogList.css';
+import '../App.css';
 
 const BlogPostItem = ({ id, title, slug, wallpaperImage, datePosted }) => {
-  const formattedDate = format(parseISO(datePosted), 'yyyy-MM-dd');
 
   return (
     <li>

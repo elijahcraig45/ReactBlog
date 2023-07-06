@@ -1,8 +1,35 @@
+/* Variables */
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #3A4F35;
+    --secondary-color: #B9D7B2;
+    --primary-shadow: #cdf0cd;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+  /* Variables end */
+
+
 body {
-    background-color: #749E6A;
+    background-color: var(--bg-color);
     width: 100%;
+    color: var(--primary-color)
 }
 
+.navbar {
+    background-color: var(--primary-shadow);
+    display: flex;
+    justify-Content: flex-end;
+    align-Content: center;
+
+}
 
 .navbarlist {
     list-style-type: none;
@@ -15,9 +42,9 @@ li::before {
 }
 
 .nav-link {
-    color: whitesmoke;
+    color: var(--primary-color);
 }
 
 .nav-link:hover {
-    color: #3A4F35;
+    color: var(--secondary-color);
 }

@@ -1,8 +1,28 @@
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #3A4F35;
+  --secondary-color: #B9D7B2;
+  --primary-shadow: #cdf0cd;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
 body {
-  background-color: #B9D7B2;
+  background-color: var(--bg-color);
   color: #3A4F35;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  margin: auto;
 }
 
 
@@ -10,8 +30,8 @@ body {
 h1, h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  padding-left: 2rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 p {
@@ -33,6 +53,7 @@ padding-left: 5rem;
 
 ul {
   list-style-type: square;
+  padding-left: 5rem;
 }
 .quote {
   margin-top: 2rem;

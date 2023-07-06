@@ -1,4 +1,3 @@
-import './page.css'
 
 import React from 'react';
 

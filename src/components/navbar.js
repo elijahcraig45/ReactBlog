@@ -4,7 +4,7 @@ import './navbar.css';
 
 const Navbar = () => {
   return (
-    <div style={{ backgroundColor: '#749E6A', display: 'flex', justifyContent: 'flex-end', alignContent: 'center' }}>
+    <div className='navbar'>
       <ul style={{ listStyle: 'none', display: 'flex' }} className='navbarlist'>
         <li style={{ marginRight: '15px' }}>
           <NavLink exact to="/reactBlog" activeclassname="active" className="nav-link">Home</NavLink>

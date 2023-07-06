@@ -1,5 +1,5 @@
 import React from 'react';
-import './blogPosts.css';
+
 
 const RestWisdom = () => {
   return (
