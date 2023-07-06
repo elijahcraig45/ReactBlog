@@ -30,6 +30,7 @@ root.render(
         <Route path='/blogPosts/restWisdom' element={<RestWisdom /> } />
         <Route path="/impossible" element={<ImpossibleList />} /> 
         <Route path="/Weather" element={<WeatherMap showTomorrowEmbed={false}/> } />
+        <Route path="/reactBlog/Weather" element={<WeatherMap showTomorrowEmbed={false}/> } />
       </Routes>
     </Router>
   </React.StrictMode>
