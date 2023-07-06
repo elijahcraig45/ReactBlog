@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/reactBlog/static/css/main.dd61baa9.css",
-    "main.js": "/reactBlog/static/js/main.332ad10a.js",
+    "main.js": "/reactBlog/static/js/main.817c392b.js",
     "static/js/787.9e0c1f39.chunk.js": "/reactBlog/static/js/787.9e0c1f39.chunk.js",
     "static/media/wisdomRest.png": "/reactBlog/static/media/wisdomRest.333e1cc2b731382d4585.png",
     "static/media/resume_76.pdf": "/reactBlog/static/media/resume_76.897983a57ec1a78f8036.pdf",
     "static/media/mlbWeekOne.png": "/reactBlog/static/media/mlbWeekOne.ca6d363d8a5edaef213e.png",
     "index.html": "/reactBlog/index.html",
     "main.dd61baa9.css.map": "/reactBlog/static/css/main.dd61baa9.css.map",
-    "main.332ad10a.js.map": "/reactBlog/static/js/main.332ad10a.js.map",
+    "main.817c392b.js.map": "/reactBlog/static/js/main.817c392b.js.map",
     "787.9e0c1f39.chunk.js.map": "/reactBlog/static/js/787.9e0c1f39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd61baa9.css",
-    "static/js/main.332ad10a.js"
+    "static/js/main.817c392b.js"
   ]
 }
